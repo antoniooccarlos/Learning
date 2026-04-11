@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secao-alunos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px; 
+    background-color: #f4f4f9;
+    min-height: 100vh;
+
+    align-items: flex-start;
+
+    .perfil-container:nth-child(1) {
+    order: 2;}
+    .perfil-container:nth-child(2) {
+    order: 1;}
+    .perfil-container:nth-child(3) {
+    order: 3;}
+}
+
+.perfil-container {
+    background-color: #ffffff;
+    width: 280px;
+            
+    border: 2px solid #d1d1d1; 
+    border-radius: 10px;
+            
+    padding: 25px; 
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+            
+    border-radius: 50%; 
+    border: 3px solid #007bff;
+            
+    display: block;
+    margin: 0 auto 20px auto; 
+}
+
+p { 
+    color: #555555;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+       
+#aluno-destaque {
+    color: #ffd000;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+        
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #444;
+}
+
+li {
+    margin-bottom: 8px;
+}
