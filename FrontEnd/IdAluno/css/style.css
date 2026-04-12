@@ -15,7 +15,8 @@
     min-height: 100vh;
 
     align-items: flex-start;
-
+    
+    /* coloquei essa linha apenas para organizar a visualização*/
     .perfil-container:nth-child(1) {
     order: 2;}
     .perfil-container:nth-child(2) {
