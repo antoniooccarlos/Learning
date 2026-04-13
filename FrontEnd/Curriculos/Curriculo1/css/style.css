@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.curriculo-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/*cabeçalho*/
+.cabecalho {
+    display: flex;
+    flex-shrink: 0; 
+}
+
+.cabecalho-esq {
+    width: 35%;
+    background-color:  #cad8e5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.cabecalho-dir {
+    width: 65%;
+    background-color: #cad8e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+.foto-perfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2c425c;
+    /*nao faço a minima de como deixar ele igual o da imagem*/
+}
+
+.cabecalho-dir h1 {
+    font-size: 2.5rem;
+    color: #1e3a5f;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.cabecalho-dir h2 {
+    font-size: 1rem;
+    color: #4a6b8c;
+    letter-spacing: 2px;
+}
+
+/*corpo*/
+.corpo-curriculo {
+    display: flex;
+}
+
+.coluna-esq {
+    width: 35%;
+    padding: 30px 20px 30px 30px;
+    background-color: #dce4eb;
+}
+
+.coluna-dir {
+    width: 65%;
+    padding: 30px 40px 30px 20px;
+    background-color: #ffffff;
+}
+
+/*texto*/
+.secao {
+    margin-bottom: 30px;
+}
+
+.titulo-secao {
+    font-size: 1.1rem;
+    color: #1e3a5f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+/*comando pra linha nos titulos*/
+.titulo-secao::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #1e3a5f;
+}
+
+/*listas*/
+.lista-contato {
+    list-style: none;
+}
+
+.lista-contato li {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #444;
+}
+
+.lista-contato i {
+    color: #1e3a5f;
+    width: 20px;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.lista-habilidades {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/*experiencia*/
+.item {
+    margin-bottom: 20px;
+}
+
+.item h4 {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.item .instituicao {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.item .data {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.secao p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 10px;
+}

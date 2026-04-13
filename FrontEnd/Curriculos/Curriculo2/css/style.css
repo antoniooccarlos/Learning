@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.curriculo-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: stretch; 
+}
+
+.barra-lateral-azul {
+    width: 70px;
+    background-color: #1e3a8a; 
+    flex-shrink: 0;
+}
+
+.conteudo-principal {
+    flex-grow: 1;
+    padding: 40px 50px;
+}
+
+.cabecalho-principal h1 {
+    font-size: 2.2rem;
+    color: #1e3a8a;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.cabecalho-principal h2 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.linha-divisoria {
+    border: none;
+    border-top: 1px solid #1e3a8a;
+    margin: 10px 0;
+}
+
+.titulo-secao {
+    font-size: 0.95rem;
+    color: #666;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.dados-pessoais-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.dados-texto {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.linha-dado {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+}
+
+.rotulo {
+    width: 130px;
+    color: #555;
+}
+
+.valor {
+    color: #000;
+}
+
+.foto-perfil-retangular {
+    width: 110px;
+    height: 140px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.item-lista {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.coluna-ano {
+    width: 130px;
+    flex-shrink: 0;
+    color: #555;
+}
+
+.coluna-detalhes {
+    color: #222;
+}
+
+.coluna-detalhes strong {
+    font-weight: bold;
+    color: #000;
+}
